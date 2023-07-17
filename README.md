@@ -8,7 +8,8 @@ Asset Management is a microservices it's a part of One Cognizant Platform where 
 . go to the backend folder and go to the main application folder
 . right click -> run as -> spring boot app
 #### home page
-![Screenshot (67)](https://github.com/Abhishek-1310/Full_Stack_Java_Project/assets/76660763/c82b55b5-2d1f-4cff-a09f-5b6e04281dc7)
+![git1](https://github.com/Abhishek-1310/Full_Stack_Java_Project/assets/76660763/8fd8fba7-df46-420b-b5d7-661292cfdf05)
+
 #### Register asset
 ![image](https://github.com/Abhishek-1310/Full_Stack_Java_Project/assets/76660763/592ca9a4-8f33-449c-9f9b-1c6663d982c3)
 
