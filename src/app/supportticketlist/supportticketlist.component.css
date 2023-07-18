@@ -1,0 +1,27 @@
+.tk1{
+    background-color: rgb(135, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.tk2{
+    background-color: rgb(85 223 248);
+
+}
+.val1{
+    color: #5f3bed;
+}
+.val2{
+    color: black;
+}
+.c1{
+    /* background-color: #56e6f9; */
+    background-color: #71dbee;
+    text-align: center;
+    color: black;
+    
+}
+span{
+    color:white
+}
+/* #ed3bca
+#5f3bed */

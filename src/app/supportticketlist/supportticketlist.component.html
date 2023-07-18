@@ -1,0 +1,25 @@
+
+<div class="container c1" >
+    <h1>Open Ticket</h1>
+    <div class="row tk1 m-5">
+        <div class="card col-md-3 m-3 p-3 tk2" style="width: 18rem;" *ngFor="let assigntk of supportticket" >
+            <div class="card-body " >
+              <h5 class="card-title val1">{{assigntk.ticketID}}</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary val2">Support Emp:-<span>{{assigntk.assignedToEmployee}}</span></h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary val2">Come on:-<span>{{assigntk.expectedResolution}}</span></h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary val2">Empolyee:-<span>{{assigntk.ticketRaisedByEmployee}}</span></h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary val2">Date:-<span>{{assigntk.ticketRaisedOn}}</span></h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary val2">Status:-<span>{{assigntk.ticketStatus}}</span></h6>
+              <button type="button" class="btn btn-primary" routerLink="api/supportrequests/{{assigntk.ticketID}}/resolve" >RESOLVE</button>
+              
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    
+</div>
+
+<!-- (click)="onResolvedTkt(assigntk.ticketID)" -->
+<!-- assigntk.ticketID+['/resolve'] -->
+<!-- "['/api/supportrequests', assigntk.ticketID, 'resolve']" -->

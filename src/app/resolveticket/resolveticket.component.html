@@ -1,0 +1,28 @@
+
+<div class="container c1" >
+    <br>
+    <h1 style="color: black;">Ticket Details</h1>
+    <!-- <br> -->
+    <div >
+        <p>{{ticketdetail.ticketID}}</p>
+        <p>{{ticketdetail.assignedToEmployee}}</p>
+        <p>{{ticketdetail.expectedResolution}}</p>
+        <p>{{ticketdetail.ticketRaisedByEmployee}}</p>
+        <p>{{ticketdetail.ticketRaisedOn}}</p>
+        <p>{{ticketdetail.ticketStatus}}</p>
+    </div>
+    <br>
+</div>
+<div class="container c2 p-3">
+    <h1>Resolve Ticket</h1>
+    <form class="m-3" [formGroup]="myForms" (ngSubmit)="resolveticket()">
+        <div class="form-group">
+            <label for="resolutionDescription">Resolution Description</label>
+            
+            <textarea name="resolution Description" class="form-control" id="resolutionDescription" formControlName="resolutionDescriptions" cols="4" rows="4"></textarea>
+        </div>
+       
+        <button type="submit" class="btn btn-primary mb-3">Resolve</button>
+    </form>
+</div>
+

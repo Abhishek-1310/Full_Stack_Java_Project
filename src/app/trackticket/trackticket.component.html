@@ -1,0 +1,27 @@
+<div class="container" style="background-color: #71baee;" [formGroup]="myForm"  (ngSubmit)="getStatus()" >
+    <form class="mb-3"  >
+        <div class="form-group">
+            <br>
+            <h1 class="">Ticket ID</h1>
+            
+            <input type="text" class="form-control" id="ticketID" formControlName="ticketId">
+        </div>
+       
+        <button type="submit" class="btn btn-primary mb-3" >Check Status</button>
+    </form>
+</div>
+<div class="container c2 p-3" style="background-color: #f5629e;" >
+    <br>
+    <h1>Ticket Details</h1>
+    <br>
+    <div class=" c1" >
+        <p style="color: white;">{{ticketdetail.ticketID}}</p>
+        <p style="color: white;">{{ticketdetail.assignedToEmployee}}</p>
+        <p style="color: white;">{{ticketdetail.expectedResolution}}</p>
+        <p style="color: white;">{{ticketdetail.ticketRaisedByEmployee}}</p>
+        <p style="color: white;">{{ticketdetail.ticketRaisedOn}}</p>
+        <h2 style="font-weight: bold; color: aqua;" ><span class="sts">Status:-  </span>{{ticketdetail.ticketStatus}}</h2>
+    </div>
+</div>
+<!-- (ngSubmit)="" -->
+<!-- (click)="getStatus()" -->
