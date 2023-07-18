@@ -4,6 +4,7 @@ Asset Management is a microservices it's a part of One Cognizant Platform where 
 ### how to start frontend 
 . go to the frontend folder
 . write ../frontend> ng serve --open/ ng s -o
+## you will get frontend file in master branch
 ### how to start backend 
 . go to the backend folder and go to the main application folder
 . right click -> run as -> spring boot app
